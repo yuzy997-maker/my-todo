@@ -1,9 +1,16 @@
 {
-  "redirects": [
-    {
-      "source": "/**",
-      "destination": "/index.html",
-      "type": 200
+  "envId": "yuzy-test-5glx4mwz77b78f9e",
+  "framework": {
+    "name": "react",
+    "plugins": {
+      "client": {
+        "use": "@cloudbase/framework-plugin-website",
+        "inputs": {
+          "outputPath": "./dist",
+          "cloudPath": "/",
+          "ignore": [".git", ".github", "node_modules"]
+        }
+      }
     }
-  ]
+  }
 }
