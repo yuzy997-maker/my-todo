@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment files (keep .env.production as template)
+.env.local
+.env.*.local
+
+# SQLite database
+server/*.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
